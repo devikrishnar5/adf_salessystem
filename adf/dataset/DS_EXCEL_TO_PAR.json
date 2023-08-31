@@ -1,0 +1,22 @@
+{
+	"name": "DS_EXCEL_TO_PAR",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_EXCEL_TO_PAR",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "73bb525c6045c97eada61126be4c79c",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "olist_orders_dataset.xlsx",
+				"container": "inputexcel"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
